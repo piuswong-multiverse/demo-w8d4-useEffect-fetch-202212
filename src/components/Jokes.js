@@ -24,8 +24,10 @@ function Jokes(){
             {
                 jokes.map( (joke) => {
                     return(
-                        <div className="joke">
-                            { joke.joke }
+                        <div className="joke" key={joke.id}>
+                            { 
+                                joke.joke // individual element . property 
+                            } 
                         </div>
                     )
                 } )
