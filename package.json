@@ -1,0 +1,29 @@
+{
+  "name": "demo-w8d4-useeffect-fetch-202212",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piuswong-multiverse/demo-w8d4-useEffect-fetch-202212.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piuswong-multiverse/demo-w8d4-useEffect-fetch-202212/issues"
+  },
+  "homepage": "https://github.com/piuswong-multiverse/demo-w8d4-useEffect-fetch-202212#readme",
+  "dependencies": {
+    "parcel": "^2.8.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
