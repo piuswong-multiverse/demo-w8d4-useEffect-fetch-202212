@@ -1,9 +1,12 @@
 import React from 'react';
+import TitleCard from './TitleCard';
+import Jokes from './Jokes';
 
 function App(){
     return(
         <div>
-            APP IS ALIVE!
+            <TitleCard />
+            <Jokes />
         </div>
     )
 }
