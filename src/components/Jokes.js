@@ -26,7 +26,12 @@ function Jokes(){
                     return(
                         <div className="joke" key={joke.id}>
                             { 
-                                joke.joke // individual element . property 
+                                joke.type==="single" ? 
+                                    joke.joke : // individual element . property 
+                                    <div className="two-parter">
+                                        <p className="setup">{joke.setup}</p>
+                                        <p className="delivery">{joke.delivery}</p>
+                                    </div>
                             } 
                         </div>
                     )
